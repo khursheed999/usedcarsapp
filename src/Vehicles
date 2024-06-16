@@ -1,0 +1,58 @@
+import p1 from "./assets/Images/Mahindra.jpg"
+
+export const PRODUCTS = [
+    {
+        id: 1,
+        productName: 'Amoul',
+        price: 9.9,
+        productImage: p1,
+    },
+    {
+        id: 2,
+        productName: 'Watch',
+        price: 999.9,
+        productImage: p1
+    },
+    {
+        id: 3,
+        productName: 'Smart-Watch',
+        price: 999.9,
+        productImage: p1
+    },
+    {
+        id: 4,
+        productName: 'Camera',
+        price: 944.9,
+        productImage: p1
+    },
+    {
+        id: 5,
+        productName: 'Laptop',
+        price: 9000.0,
+        productImage: p1
+    },
+    {
+        id: 6,
+        productName: 'Shoes',
+        price: 200,
+        productImage: p1
+    },
+    {
+        id: 7,
+        productName: 'Slipper',
+        price: 100.0,
+        productImage: p1
+    },
+    {
+        id: 8,
+        productName: 'Iphone',
+        price: 1999.0,
+        productImage: p1
+    },
+    {
+        id: 9,
+        productName: 'Book',
+        price: 300,
+        productImage: p1
+    }
+]

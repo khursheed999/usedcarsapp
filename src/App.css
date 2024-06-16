@@ -1,0 +1,22 @@
+.app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    width: 100%;
+    
+}
+@media  screen and (max-width:400px) {
+    .app{
+       
+        margin-top: 150px;
+    }
+}
+
+
+
+
+

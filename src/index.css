@@ -1,0 +1,348 @@
+
+body{
+  margin: 0%;
+  padding: 0%;
+
+}
+:root {
+  margin-top: 0;
+
+  position: relative;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+
+.nav-list{
+  background-color: rgb(136, 134, 134);
+  width: 100%;
+  margin-bottom: 30px;
+  position: fixed;
+  top: 0;
+  padding: 3px 5px;
+}
+@media screen and (max-width:400px){
+.nav-link{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+margin-left: 0px;
+  width: 250px;
+  height: 100%;
+  margin-bottom: 30px;
+  background-color: rgb(136, 134, 134);
+  color: white;
+}
+  
+}
+.nav-list ul{
+  margin: 10px 0px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.nav-list ul li .nav-link {
+  color: white;
+  background-color: rgb(136, 134, 134);
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+.nav-list ul li a:hover{
+  color: red;
+}
+.nav-list li a {
+  text-decoration: inherit;
+}
+.nav-list li a.active{
+   border-bottom: 2px solid white;
+   border-left: 4px solid white;
+   background-color: black;
+   padding: 1px 5px;
+   border-radius: 6px;
+}
+.home{
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 70px;
+
+}
+
+.card{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  box-shadow: 0 0 9px rgb(223, 214, 214);
+  color: black;
+  border-radius: 3%;
+}
+
+
+
+.image img{
+  display: flex;
+  flex-wrap:wrap;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+  margin-bottom: 0;
+width: 250px;
+height: 250px;
+/* mix-blend-mode: multiply; */
+
+  
+}
+
+.card .details{
+  padding: 0px 5px;
+  width: 100%;
+  background-color: white;
+}
+.details h1{
+  font-weight: bold;
+  justify-content: flex-start;
+  margin-bottom: 2px;
+
+
+
+
+}
+.details div{
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.details div h4{
+ font-size: 15px;
+  margin-top: 0;
+
+}
+.Button{
+ border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+  margin: 3px 0px;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  width: 200px;
+  background-color: #f3f3f3;
+  box-shadow: 0 0 9px rgb(223, 214, 214);
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+
+}
+ Button:hover{
+  background-color: #ccc;
+  border: 1px solid rgb(61, 60, 60);
+  color: white;
+}
+
+
+
+ .login, .logout{
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+.buy{
+  margin-top: 70px;
+ display: flex;
+ align-items: center;
+ text-align: center;
+ justify-content: center;
+ flex-direction: column;
+}
+.buy  div{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border-radius: 3%;
+} 
+.buy div .card2{
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 0 9px rgb(223, 214, 214);
+  color: black;
+  border-radius: 3%;
+  width: 300px;
+ 
+}
+
+.buy div .card2 .image2 img{
+  display: flex;
+  flex-wrap:wrap;
+  border-top-left-radius: 3%;
+  border-bottom-left-radius: 3%;
+  margin-bottom: 0;
+ 
+ /* mix-blend-mode: multiply; */
+}
+div .card2 .details{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 3px;
+  width: 150px;
+  margin-top: 30px;
+
+ 
+}
+div .card2 .details h2{
+  font-size: 15px;
+   font-weight: bold;
+ 
+ }
+div .card2 .details h1{
+  font-weight: bold;
+  justify-content: flex-start;
+}
+.buy div .messages {
+  border-bottom-left-radius: 3%;
+  border-bottom-right-radius: 3%;
+  box-shadow: 0 0 9px rgb(223, 214, 214);
+  padding: 3px 8px;
+}
+div .messages form {
+display: flex;
+flex-direction: row;
+}
+ .messages form  input{
+width: 120vh;
+border-radius: 5px;
+padding-left: 5px;
+border: none;
+outline: none;
+font-size: 16px;
+}
+.messages form  .btn{
+  padding: 7px 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 9px rgb(223, 214, 214);
+ border: 1px solid #ccc;
+ width: 50px;
+ height: 40px;
+ margin-left: 50px;
+align-items: center;
+text-align: center;
+background-color: #ccc;
+}
+form .btn:hover{
+  cursor: pointer;
+  background-color: rgb(241, 228, 228);
+  color: black;
+}
+.messages form .btn .icon{
+  font-size: 18px;
+  color: white;
+}
+.chat-box{
+
+  height: 100%;
+  width: 300px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 9px rgb(223, 214, 214);
+  border-radius: 3%;
+  padding: 3px 5px;
+
+}
+ .chat-box .chat{
+display: flex;
+justify-content: space-around;
+flex-direction: row;
+padding: 3px 5px;
+}
+.chat-box .chat .user{
+color: rgb(209, 143, 143);
+margin-left: 0;
+}
+.chat-box .chat .message{
+  color: green;
+}
+.logout button{
+  border: none;
+  outline: none;
+  background-color: white;
+  color: green;
+  font-weight: bold;
+  font-size: 40px;
+  box-shadow: 0 0 7px rgb(193, 225, 193);
+  padding: 5px 40px;
+  border-radius: 5px;
+}
+
+.sell{
+  padding: 20px;
+  margin-top: 100px;
+  border-radius: 5px;
+  box-shadow:  0 0 7px grey;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  min-width: 200px;
+}
+.sell  .button{
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sell label{
+  
+  font-weight: bold;
+ 
+}
+.login{
+  padding: 20px;
+  margin-top: 150px;
+  border-radius: 5px;
+  box-shadow:  0 0 7px rgb(37, 33, 33);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  min-width: 200px;
+}
+.login .button{
+  margin-top: 10px;
+  display: flex;
+  margin-left: 20px;
+  justify-content: flex-end;
+
+  padding-right: 0px;
+}
+
+.login label{
+  
+  font-weight: bold;
+ 
+}
